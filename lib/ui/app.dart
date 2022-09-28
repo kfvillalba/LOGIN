@@ -1,5 +1,5 @@
-import 'package:crudclientes/domain/modelo/modelo.dart';
-import 'package:crudclientes/ui/pages/lista.dart';
+import 'package:crudclientes/ui/pages/LogIn.dart';
+import 'package:crudclientes/ui/pages/SingIn.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -9,8 +9,8 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Crud clientes',
-      theme: ThemeData(primarySwatch: Colors.deepOrange),
-      home: const ListarClientes(),
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      home: const LogIng(),
       debugShowCheckedModeBanner: false,
     );
   }

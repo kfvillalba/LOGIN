@@ -6,6 +6,7 @@ class Cliente {
   Cliente({this.nombre, this.apellido, this.telefono});
 }
 
+
 List<Cliente> listaClientes = [
   Cliente(nombre: 'henry', apellido: 'Guerrero', telefono: '3126688555'),
   Cliente(nombre: 'giseth', apellido: 'mendoza', telefono: '3126104584'),

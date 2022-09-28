@@ -1,4 +1,4 @@
-import 'package:crudclientes/domain/modelo/modelo.dart';
+import 'package:crudclientes/domain/modelo/Cliente.dart';
 import 'package:crudclientes/ui/pages/widget.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +11,7 @@ class AdicionarClientes extends StatefulWidget {
 }
 
 class _AdicionarClientesState extends State<AdicionarClientes> {
-  List<Cliente> _clienteAdd = [];
+  final List<Cliente> _clienteAdd = [];
   TextEditingController controlnombre = TextEditingController();
   TextEditingController controlapellido = TextEditingController();
   TextEditingController controltelefono = TextEditingController();

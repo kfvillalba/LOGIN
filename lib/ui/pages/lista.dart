@@ -1,6 +1,6 @@
 import 'package:crudclientes/ui/pages/crear.dart';
 import 'package:flutter/material.dart';
-import '../../domain/modelo/modelo.dart';
+import '../../domain/modelo/Cliente.dart';
 
 class ListarClientes extends StatefulWidget {
   const ListarClientes({Key? key}) : super(key: key);
@@ -22,7 +22,7 @@ class _ListarClientesState extends State<ListarClientes> {
           itemBuilder: (context, index) {
             return ListTile(
               onLongPress: () {
-                _eliminarclientes(context, _clientes[0]);
+                _eliminarclientes(context, _clientes[index]);
               },
               onTap: () {
                 Navigator.push(
